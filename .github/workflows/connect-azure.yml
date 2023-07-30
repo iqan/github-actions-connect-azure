@@ -10,8 +10,9 @@ permissions:
       contents: read
       
 jobs: 
-  build-and-deploy:
+  connect-azure-prod:
     runs-on: ubuntu-latest
+    environment: Production
     steps:
     - name: 'Az CLI login'
       uses: azure/login@v1

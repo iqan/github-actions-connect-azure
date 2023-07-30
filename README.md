@@ -1,6 +1,10 @@
 # Connect to Azure from GitHub actions without Secret
 
-Step by step guide to help connect Azure from GitHub Actions without using client secret/certificate
+Step by step guide to help connect Azure from GitHub Actions without using client secret/certificate.
+
+### Blog Post
+
+https://iqan.medium.com/connect-to-azure-from-github-actions-without-using-client-secrets-476dae0a5600
 
 ## Set Up SPN and Federated Credentials
 
